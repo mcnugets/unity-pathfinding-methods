@@ -1,4 +1,4 @@
-<div align="center"> UNITIY PATHFINDING METHODS </div>
+<div align="center"> # UNITIY PATHFINDING METHODS </div>
 Project provides a basic application of different path searching algorithms  like A *, Dijkstra
 
 
