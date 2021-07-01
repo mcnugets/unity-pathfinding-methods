@@ -6,6 +6,8 @@ using UnityEngine.Events;
 using System;
 
 
+
+
 public enum pf
 {
 
@@ -18,6 +20,7 @@ public enum pf
 public class pathfindingController : pathfinding
 
 {
+    
     public Button[] butt;
     public GameObject panel;
     private bool setPanel;
@@ -52,7 +55,7 @@ public class pathfindingController : pathfinding
         setPanel = !setPanel;
         panel.SetActive(setPanel);
     }
-
+    
     public void switcher()
     {
         
@@ -70,6 +73,7 @@ public class pathfindingController : pathfinding
        
     }
    
+ 
     
     
     public void selectPathfinding(int index, Vector3 start, Vector3 target)
@@ -104,7 +108,7 @@ public class pathfindingController : pathfinding
 
 
     }
-
+   
 
 
 

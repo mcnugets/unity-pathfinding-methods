@@ -7,7 +7,7 @@ using System;
 
 public class PathfindingManager : MonoBehaviour
 {
-
+    
     public struct Agent
     {
         public Transform agentPos;
@@ -37,7 +37,7 @@ public class PathfindingManager : MonoBehaviour
     #endregion
     
 
-    private void Start()
+     void Start()
     {
 
 
@@ -420,9 +420,10 @@ public class PathfindingManager : MonoBehaviour
     }
     #endregion
 
-    void OnDrawGizmos() 
+    private void Update()
     {
-      
+        if (path.method == 1) print("method===> " + path.method);
+        if (path.method == 2) print("method===> " + path.method);
     }
 
 

@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7948076306260293454}
   - component: {fileID: 7948076306260293453}
+  - component: {fileID: -4794719677151682290}
   - component: {fileID: 7948076306260293455}
   - component: {fileID: 417818338440416783}
-  - component: {fileID: -4794719677151682290}
   - component: {fileID: 7948076306260293489}
   - component: {fileID: 2808012439903778772}
   m_Layer: 0
@@ -53,6 +53,22 @@ MonoBehaviour:
   unwalkable:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &-4794719677151682290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7948076306260293452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d194e6fb53417540a45a4358841f67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {fileID: 0}
+  Player: {fileID: 0}
+  patrolPoints: []
+  detect: {fileID: 0}
 --- !u!114 &7948076306260293455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,22 +95,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   butt: []
   panel: {fileID: 0}
---- !u!114 &-4794719677151682290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7948076306260293452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d194e6fb53417540a45a4358841f67b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  start: {fileID: 0}
-  Player: {fileID: 0}
-  patrolPoints: []
-  detect: {fileID: 0}
 --- !u!120 &7948076306260293489
 LineRenderer:
   m_ObjectHideFlags: 0
