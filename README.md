@@ -16,6 +16,9 @@
 <p>In order for for Agent to patrol, program requires to place patrloling point throuhout the area. The moment these points are placed the agent will choose the closest point posible and will start moving accordingly. If player is within the detected range the agent switches to the chase, it switches back to patroling if player exits its range of view.</p>
 <p>
 This demo project still requires further improvement. :smiley:
+<ul>
+ <li><a href="https://mcnugets.github.io/unity-pathfinding-methods/" alt="link"> Click link to test Demo</a></li>
+ </ul>
 </p>
   
 
