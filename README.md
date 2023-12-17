@@ -1,4 +1,4 @@
-<h1 align="center" color="D5FF00">  UNITIY PATHFINDING METHODS </h1>
+<h1 align="center" color="D5FF00">  UNITY PATHFINDING METHODS </h1>
  <h4 align="center">Project provides a basic application of different path searching algorithms  like <em>A Star, Dijkstra</em> and etc.</h3>
  
 
